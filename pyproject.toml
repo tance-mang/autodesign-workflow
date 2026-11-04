@@ -1,0 +1,10 @@
+[project]
+name = "autodesign-workflow"
+version = "0.1.0"
+description = "Local AI asset discovery, review and reversible integration"
+requires-python = ">=3.10"
+dependencies = ["flask>=3.0", "requests>=2.31", "Pillow>=10", "PyYAML>=6"]
+[project.scripts]
+autodesign = "autodesign:main"
+[tool.setuptools]
+py-modules = ["autodesign"]
